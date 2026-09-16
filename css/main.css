@@ -14,7 +14,7 @@ body {
     height: 100vh;
     background-color: var(--body-bg);
     font-size: 18px;
-    /*font-family:;*/
+    font-family:"scandia", sans-serif;
 }
 #wrapper{
     display: flex;
@@ -34,16 +34,16 @@ main{
 
 h1{
     font-size: calc(1rem * pow(1.3, 5));
-    /*font-family: ;*/
+    font-family: "westsac", sans-serif;
 
 }
 h2{
     font-size: calc(1rem * pow(1.3, 4));
-     /*font-family: ;*/
+    font-family: "typeka", sans-serif;
 }
 h3{
     font-size: calc(1rem * pow(1.3, 3));
-     /*font-family: ;*/
+    font-family: "typeka", sans-serif;
 }
 h4{
     font-size: calc(1rem * pow(1.3, 2));
@@ -52,12 +52,12 @@ h5{
     font-size: calc(1rem * pow(1.3, 1));
 }
 p {
-    /*font-family: ;*/
+    font-family: "scandia", sans-serif;
 }
 sub{
-    /*font-family: ;*/
+    font-family: "scandia", sans-serif;
     font-size: 16px;
 }
 a {
-    /*font-family: ;*/
+    font-family: "scandia", sans-serif;
 }
