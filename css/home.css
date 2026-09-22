@@ -1,0 +1,102 @@
+#wrapper {
+    height: 100vh;
+}
+body {
+    margin: 0px;
+    background-size: 50rem;
+    min-height: 100%;
+}
+main {
+    padding: 0rem;
+    gap: 0rem;
+    box-sizing: border-box;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+#mainImgContainer {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    align-items: flex-end;
+    height: 100%;
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    margin-top: 33vh;
+    background: url('../img/home/AdobeStock_657065571.png');
+    background-size: 200%;
+    background-position: center bottom;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+}
+#mainImgContainer img{
+    max-width: 100%;
+    object-fit: contain;
+    transform: translate(-35%, 0);
+}
+#phone {
+    display: block;
+    height: 13vh;
+    z-index: 2;
+    margin-bottom: 20vh;
+}
+#tv {
+    display: block;
+    height: 27vh;
+    z-index: 0;
+    margin-bottom: 25vh;
+}
+
+@media (min-width: 768px) {
+    #mainImgContainer img{
+        transform: translate(2vw, 0);
+        margin-top: 0;
+    }
+    #phone {
+        height: 15vh;
+        margin-bottom: 20vh;
+    }
+    #tv {
+        height: 35vh;
+        margin-bottom: 30vh;
+    }
+}
+@media (min-width: 900px) {
+    #mainImgContainer {
+        margin-top: 0vh;
+        background-size: 100%;
+    }
+    #mainImgContainer img{
+        max-width: 100%;
+        object-fit: contain;
+        transform: translate(15%, 0);
+    }
+    #phone {
+        display: block;
+        height: 11rem;
+        z-index: 2;
+        margin-bottom: 8rem;
+    }
+    #tv {
+        display: block;
+        height: 25rem;
+        z-index: 0;
+        margin-bottom: 12rem;
+    }
+}
+@media screen and (min-height: 800px) and (max-width: 500px) {
+    #mainImgContainer {
+        margin-top: 35vh;
+        background-size: 250%;
+    }
+    #mainImgContainer img{
+        transform: translate(-40%, 0);
+    }
+    #phone {
+        margin-bottom: 20vh;
+    }
+    #tv {
+        margin-bottom: 25vh;
+    }
+}
